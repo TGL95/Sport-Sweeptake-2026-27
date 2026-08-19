@@ -4,6 +4,7 @@ import DeletePlayerForm from "@/components/DeletePlayerForm";
 import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
+export const maxDuration = 30;
 export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 export default async function AdminPage() {

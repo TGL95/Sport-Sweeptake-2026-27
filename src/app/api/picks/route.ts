@@ -3,6 +3,9 @@ import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { isLocked } from "@/lib/lock";
 
+// Give Neon room to wake from auto-suspend on a cold serverless invocation.
+export const maxDuration = 30;
+
 const bodySchema = z.object({
   name: z.string().trim().min(1).max(60),
   playingForMoney: z.boolean(),
@@ -32,20 +35,21 @@ export async function POST(request: Request) {
 
   // Validate every pick references a real competitor belonging to the stated event.
   const competitorIds = picks.map((p) => p.competitorId);
-  const competitors = await prisma.competitor.findMany({
-    where: { id: { in: competitorIds } },
-    select: { id: true, eventId: true },
-  });
+  const [competitors, existing] = await Promise.all([
+    prisma.competitor.findMany({
+      where: { id: { in: competitorIds } },
+      select: { id: true, eventId: true },
+    }),
+    prisma.player.findFirst({
+      where: { name: { equals: name, mode: "insensitive" } },
+    }),
+  ]);
   const competitorById = new Map(competitors.map((c) => [c.id, c.eventId]));
   for (const pick of picks) {
     if (competitorById.get(pick.competitorId) !== pick.eventId) {
       return NextResponse.json({ error: "Invalid pick submitted." }, { status: 400 });
     }
   }
-
-  const existing = await prisma.player.findFirst({
-    where: { name: { equals: name, mode: "insensitive" } },
-  });
 
   try {
     const player = await prisma.$transaction(async (tx) => {
