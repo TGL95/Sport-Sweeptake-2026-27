@@ -1,4 +1,4 @@
-import { isLocked, LOCK_DATE } from "@/lib/lock";
+import { isLocked, formatLockDate } from "@/lib/lock";
 import { getPicksMatrix } from "@/lib/picksMatrix";
 
 export const dynamic = "force-dynamic";
@@ -18,9 +18,8 @@ export default async function AllPicksPage() {
 
       {!locked ? (
         <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-amber-300">
-          🔒 Picks are hidden until the season starts on{" "}
-          {LOCK_DATE.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}.
-          Check back after that to see everyone&apos;s picks.
+          🔒 Picks are hidden until the season starts at {formatLockDate()}. Check back
+          after that to see everyone&apos;s picks.
         </div>
       ) : (
         <AllPicksTable />

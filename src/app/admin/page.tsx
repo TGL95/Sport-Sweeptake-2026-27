@@ -1,19 +1,21 @@
 import { prisma } from "@/lib/prisma";
 import { setWinner, setTopScorer } from "./actions";
+import DeletePlayerForm from "@/components/DeletePlayerForm";
 import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 export default async function AdminPage() {
-  const [events, settings, playerCount] = await Promise.all([
+  const [events, settings, players] = await Promise.all([
     prisma.event.findMany({
       orderBy: { sortOrder: "asc" },
       include: { competitors: { orderBy: { sortOrder: "asc" } } },
     }),
     prisma.settings.findUnique({ where: { id: 1 } }),
-    prisma.player.count(),
+    prisma.player.findMany({ orderBy: { createdAt: "asc" }, select: { id: true, name: true } }),
   ]);
+  const playerCount = players.length;
 
   return (
     <div className="space-y-6">
@@ -26,6 +28,22 @@ export default async function AdminPage() {
           so far.
         </p>
       </header>
+
+      <div className="rounded-lg border border-slate-800 bg-slate-900/50 p-4">
+        <h2 className="mb-2 font-semibold text-white">Players ({playerCount})</h2>
+        {players.length === 0 ? (
+          <p className="text-sm text-slate-400">No picks submitted yet.</p>
+        ) : (
+          <ul className="divide-y divide-slate-800">
+            {players.map((p) => (
+              <li key={p.id} className="flex items-center justify-between gap-3 py-2">
+                <span className="text-sm text-white">{p.name}</span>
+                <DeletePlayerForm playerId={p.id} playerName={p.name} />
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
 
       <div className="rounded-lg border border-slate-800 bg-slate-900/50 p-4">
         <h2 className="mb-2 font-semibold text-white">

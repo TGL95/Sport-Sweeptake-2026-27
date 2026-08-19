@@ -7,6 +7,7 @@ function revalidateAll() {
   revalidatePath("/admin");
   revalidatePath("/leaderboard");
   revalidatePath("/money");
+  revalidatePath("/picks");
 }
 
 export async function setWinner(formData: FormData) {
@@ -31,6 +32,15 @@ export async function setTopScorer(formData: FormData) {
     update: { actualTopScorer: value },
     create: { id: 1, actualTopScorer: value },
   });
+
+  revalidateAll();
+}
+
+export async function deletePlayer(formData: FormData) {
+  const playerId = String(formData.get("playerId") ?? "");
+  if (!playerId) return;
+
+  await prisma.player.delete({ where: { id: playerId } });
 
   revalidateAll();
 }

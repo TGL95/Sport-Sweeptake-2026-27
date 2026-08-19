@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
-import { isLocked, LOCK_DATE } from "@/lib/lock";
+import { isLocked, formatLockDate } from "@/lib/lock";
 import { pointsIfCorrect, round2 } from "@/lib/scoring";
 import PicksForm from "@/components/PicksForm";
 
@@ -38,14 +38,15 @@ export default async function MakePicksPage() {
           can be worth 15-25+ points.
         </p>
         <p className="text-sm text-slate-400">
-          Picks lock at midnight on <strong className="text-white">22 August 2026</strong> —
-          no changes after the season starts.
+          Picks lock at kick-off of the Premier League opener (Arsenal v Coventry City),{" "}
+          <strong className="text-white">{formatLockDate()}</strong> — no changes after the
+          season starts.
         </p>
       </header>
 
       {locked ? (
         <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-amber-300">
-          🔒 Picks locked on {LOCK_DATE.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}.
+          🔒 Picks locked at {formatLockDate()}.
           No further changes can be made — check the{" "}
           <Link href="/leaderboard" className="underline">Leaderboard</Link>.
         </div>

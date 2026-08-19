@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { formatLockDate } from "@/lib/lock";
 
 type Competitor = {
   id: string;
@@ -164,9 +165,12 @@ export default function PicksForm({ events }: { events: EventData[] }) {
               <span className="text-xs text-slate-500">{event.dateLabel}</span>
             </div>
             {event.weight !== 1 && (
-              <div className="mb-2 flex flex-wrap gap-1.5">
+              <div className="mb-2 flex flex-wrap items-center gap-1.5">
                 <span className="rounded-full bg-sky-500/15 px-2 py-0.5 text-xs text-sky-300">
                   {event.weight}× weight
+                </span>
+                <span className="text-xs text-slate-500">
+                  — season already underway, so points count for less
                 </span>
               </div>
             )}
@@ -196,7 +200,7 @@ export default function PicksForm({ events }: { events: EventData[] }) {
       {submitState === "success" && (
         <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-3 text-sm text-emerald-300">
           Picks saved! You can come back and edit them (using the same name) until picks lock
-          on 22 August 2026. Check the{" "}
+          at {formatLockDate()}. Check the{" "}
           <Link href="/leaderboard" className="underline">Leaderboard</Link>.
         </div>
       )}
