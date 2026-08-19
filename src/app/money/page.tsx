@@ -7,6 +7,7 @@ export const dynamic = "force-dynamic";
 export default async function MoneyLeaguePage() {
   const lbData = await getLeaderboardData();
   const money = getMoneyLeagueData(lbData);
+  const tieBreakRevealed = money.actualTopScorer !== null;
 
   return (
     <div className="space-y-6">
@@ -40,8 +41,12 @@ export default async function MoneyLeaguePage() {
                 <th className="px-3 py-2 font-medium">Player</th>
                 <th className="px-3 py-2 text-right font-medium">Points</th>
                 <th className="px-3 py-2 text-right font-medium">Correct Picks</th>
-                <th className="px-3 py-2 text-right font-medium">Tie-Break Guess</th>
-                <th className="px-3 py-2 text-right font-medium">Tie-Break Diff</th>
+                {tieBreakRevealed && (
+                  <>
+                    <th className="px-3 py-2 text-right font-medium">Tie-Break Guess</th>
+                    <th className="px-3 py-2 text-right font-medium">Tie-Break Diff</th>
+                  </>
+                )}
               </tr>
             </thead>
             <tbody>
@@ -55,12 +60,16 @@ export default async function MoneyLeaguePage() {
                     {p.totalPoints.toFixed(2)}
                   </td>
                   <td className="px-3 py-2 text-right text-slate-300">{p.correctPicks}</td>
-                  <td className="px-3 py-2 text-right text-slate-300">
-                    {p.tieBreakGuess ?? "—"}
-                  </td>
-                  <td className="px-3 py-2 text-right text-slate-300">
-                    {p.tieBreakDiff ?? "—"}
-                  </td>
+                  {tieBreakRevealed && (
+                    <>
+                      <td className="px-3 py-2 text-right text-slate-300">
+                        {p.tieBreakGuess ?? "—"}
+                      </td>
+                      <td className="px-3 py-2 text-right text-slate-300">
+                        {p.tieBreakDiff ?? "—"}
+                      </td>
+                    </>
+                  )}
                 </tr>
               ))}
             </tbody>
