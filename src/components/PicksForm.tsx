@@ -113,7 +113,7 @@ export default function PicksForm({ events }: { events: EventData[] }) {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. Tom L"
+            placeholder="e.g. Aaron A"
             maxLength={60}
             className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none"
             required
