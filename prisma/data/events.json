@@ -1,0 +1,1350 @@
+[
+  {
+    "name": "🏉 Rugby League World Cup",
+    "dateLabel": "7–15 Nov 2026 (semis & final)",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Australia",
+        "oddsFraction": "2/5",
+        "decimalOdds": 1.4
+      },
+      {
+        "name": "New Zealand",
+        "oddsFraction": "7/2",
+        "decimalOdds": 4.5
+      },
+      {
+        "name": "Samoa",
+        "oddsFraction": "17/2",
+        "decimalOdds": 9.5
+      },
+      {
+        "name": "England",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Tonga",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Fiji",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Papua New Guinea",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Ireland",
+        "oddsFraction": "150/1",
+        "decimalOdds": 151
+      },
+      {
+        "name": "Wales",
+        "oddsFraction": "200/1",
+        "decimalOdds": 201
+      },
+      {
+        "name": "Cook Islands",
+        "oddsFraction": "250/1",
+        "decimalOdds": 251
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏎️ F1 Drivers' Championship",
+    "dateLabel": "Season in progress — decided 6 Dec 2026",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Kimi Antonelli",
+        "oddsFraction": "1/4",
+        "decimalOdds": 1.25
+      },
+      {
+        "name": "Lewis Hamilton",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "George Russell",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Lando Norris",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Charles Leclerc",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Max Verstappen",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Oscar Piastri",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Alex Albon",
+        "oddsFraction": "500/1",
+        "decimalOdds": 501
+      },
+      {
+        "name": "Isack Hadjar",
+        "oddsFraction": "1000/1",
+        "decimalOdds": 1001
+      },
+      {
+        "name": "Oliver Bearman",
+        "oddsFraction": "1000/1",
+        "decimalOdds": 1001
+      }
+    ],
+    "weight": 0.5
+  },
+  {
+    "name": "🏎️ F1 Constructors' Championship",
+    "dateLabel": "Season in progress — decided 6 Dec 2026",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Mercedes",
+        "oddsFraction": "1/8",
+        "decimalOdds": 1.125
+      },
+      {
+        "name": "Ferrari",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "McLaren",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Red Bull",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Williams",
+        "oddsFraction": "200/1",
+        "decimalOdds": 201
+      },
+      {
+        "name": "Aston Martin",
+        "oddsFraction": "500/1",
+        "decimalOdds": 501
+      },
+      {
+        "name": "Alpine",
+        "oddsFraction": "1000/1",
+        "decimalOdds": 1001
+      },
+      {
+        "name": "Racing Bulls",
+        "oddsFraction": "1000/1",
+        "decimalOdds": 1001
+      },
+      {
+        "name": "Haas",
+        "oddsFraction": "2000/1",
+        "decimalOdds": 2001
+      },
+      {
+        "name": "Audi",
+        "oddsFraction": "2500/1",
+        "decimalOdds": 2501
+      }
+    ],
+    "weight": 0.5
+  },
+  {
+    "name": "🎯 PDC World Darts Championship",
+    "dateLabel": "11 Dec 2026–3 Jan 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Luke Littler",
+        "oddsFraction": "4/5",
+        "decimalOdds": 1.8
+      },
+      {
+        "name": "Luke Humphries",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Gian van Veen",
+        "oddsFraction": "13/2",
+        "decimalOdds": 7.5
+      },
+      {
+        "name": "Michael van Gerwen",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Gerwyn Price",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Rob Cross",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Jonny Clayton",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Stephen Bunting",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Nathan Aspinall",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Michael Smith",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏈 Super Bowl LXI",
+    "dateLabel": "16 Jan–14 Feb 2027 (playoffs & final)",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "LA Rams",
+        "oddsFraction": "11/2",
+        "decimalOdds": 6.5
+      },
+      {
+        "name": "Buffalo Bills",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Baltimore Ravens",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Seattle Seahawks",
+        "oddsFraction": "11/1",
+        "decimalOdds": 12
+      },
+      {
+        "name": "Kansas City Chiefs",
+        "oddsFraction": "15/1",
+        "decimalOdds": 16
+      },
+      {
+        "name": "Philadelphia Eagles",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Detroit Lions",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Green Bay Packers",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "San Francisco 49ers",
+        "oddsFraction": "22/1",
+        "decimalOdds": 23
+      },
+      {
+        "name": "Denver Broncos",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏉 Six Nations",
+    "dateLabel": "5 Feb–13 Mar 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "France",
+        "oddsFraction": "11/8",
+        "decimalOdds": 2.375
+      },
+      {
+        "name": "Ireland",
+        "oddsFraction": "12/5",
+        "decimalOdds": 3.4
+      },
+      {
+        "name": "England",
+        "oddsFraction": "3/1",
+        "decimalOdds": 4
+      },
+      {
+        "name": "Scotland",
+        "oddsFraction": "13/2",
+        "decimalOdds": 7.5
+      },
+      {
+        "name": "Wales",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Italy",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🐴 Grand National",
+    "dateLabel": "10 Apr 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "I Am Maximus",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Iroko",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Nick Rockett",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Haiti Couleurs",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Soldier In Milan",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Panic Attack",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Grangeclare West",
+        "oddsFraction": "22/1",
+        "decimalOdds": 23
+      },
+      {
+        "name": "Jordans",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Limerick Lace",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Kitzbuhel",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Delta Work",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Vanillier",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Meetingofthewaters",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Minella Cocooner",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Stumptown",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Away He Goes",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Intense Raffles",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Hewick",
+        "oddsFraction": "80/1",
+        "decimalOdds": 81
+      },
+      {
+        "name": "Wendigo",
+        "oddsFraction": "80/1",
+        "decimalOdds": 81
+      },
+      {
+        "name": "Mr Incredible",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "⛳ The Masters (Golf)",
+    "dateLabel": "8–11 Apr 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Scottie Scheffler",
+        "oddsFraction": "4/1",
+        "decimalOdds": 5
+      },
+      {
+        "name": "Rory McIlroy",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Jon Rahm",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Bryson DeChambeau",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Xander Schauffele",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Ludvig Åberg",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Cameron Young",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Justin Rose",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Collin Morikawa",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Viktor Hovland",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Joaquin Niemann",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Tommy Fleetwood",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Patrick Cantlay",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Jordan Spieth",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Sepp Straka",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Tyrrell Hatton",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Shane Lowry",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Hideki Matsuyama",
+        "oddsFraction": "80/1",
+        "decimalOdds": 81
+      },
+      {
+        "name": "Robert MacIntyre",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Akshay Bhatia",
+        "oddsFraction": "150/1",
+        "decimalOdds": 151
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🎱 World Snooker Championship",
+    "dateLabel": "17 Apr–3 May 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Zhao Xintong",
+        "oddsFraction": "9/2",
+        "decimalOdds": 5.5
+      },
+      {
+        "name": "Judd Trump",
+        "oddsFraction": "5/1",
+        "decimalOdds": 6
+      },
+      {
+        "name": "Mark Selby",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Kyren Wilson",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Ronnie O'Sullivan",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Mark Williams",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Neil Robertson",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Shaun Murphy",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Ding Junhui",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Luca Brecel",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏆 FA Cup",
+    "dateLabel": "Final: 22 May 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Man City",
+        "oddsFraction": "11/2",
+        "decimalOdds": 6.5
+      },
+      {
+        "name": "Arsenal",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Liverpool",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Chelsea",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Man Utd",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Tottenham",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Newcastle",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Aston Villa",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Brighton",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Crystal Palace",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🟠 Europa League",
+    "dateLabel": "Final: 26 May 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Bayer Leverkusen",
+        "oddsFraction": "9/1",
+        "decimalOdds": 10
+      },
+      {
+        "name": "Juventus",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "AC Milan",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Roma",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Porto",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Sporting CP",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Ajax",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Rangers",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Fenerbahce",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Lyon",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏉 Champions Cup (Rugby)",
+    "dateLabel": "Final: 22 May 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Toulouse",
+        "oddsFraction": "7/2",
+        "decimalOdds": 4.5
+      },
+      {
+        "name": "Leinster",
+        "oddsFraction": "4/1",
+        "decimalOdds": 5
+      },
+      {
+        "name": "Bordeaux",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Bath",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Northampton",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Munster",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Stade Français",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Glasgow Warriors",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Harlequins",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "La Rochelle",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🟣 Premier League",
+    "dateLabel": "Final day: 30 May 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "Arsenal",
+        "oddsFraction": "6/4",
+        "decimalOdds": 2.5
+      },
+      {
+        "name": "Man City",
+        "oddsFraction": "11/4",
+        "decimalOdds": 3.75
+      },
+      {
+        "name": "Liverpool",
+        "oddsFraction": "11/2",
+        "decimalOdds": 6.5
+      },
+      {
+        "name": "Man Utd",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Chelsea",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Tottenham",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Newcastle",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Aston Villa",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Brighton",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Nottm Forest",
+        "oddsFraction": "150/1",
+        "decimalOdds": 151
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "⭐ Champions League",
+    "dateLabel": "Final: 5 Jun 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "PSG",
+        "oddsFraction": "5/1",
+        "decimalOdds": 6
+      },
+      {
+        "name": "Bayern Munich",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Arsenal",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Man City",
+        "oddsFraction": "13/2",
+        "decimalOdds": 7.5
+      },
+      {
+        "name": "Barcelona",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Real Madrid",
+        "oddsFraction": "9/1",
+        "decimalOdds": 10
+      },
+      {
+        "name": "Liverpool",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Inter Milan",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Atletico Madrid",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Man Utd",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🎾 French Open",
+    "dateLabel": "23 May–6 Jun 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Carlos Alcaraz",
+        "oddsFraction": "6/4",
+        "decimalOdds": 2.5
+      },
+      {
+        "name": "Jannik Sinner",
+        "oddsFraction": "2/1",
+        "decimalOdds": 3
+      },
+      {
+        "name": "Novak Djokovic",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Alexander Zverev",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Holger Rune",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Taylor Fritz",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Daniil Medvedev",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Stefanos Tsitsipas",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Alex de Minaur",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Casper Ruud",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🏉 Premiership Rugby",
+    "dateLabel": "Final: 19 Jun 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Bath",
+        "oddsFraction": "2/1",
+        "decimalOdds": 3
+      },
+      {
+        "name": "Leicester",
+        "oddsFraction": "5/1",
+        "decimalOdds": 6
+      },
+      {
+        "name": "Northampton",
+        "oddsFraction": "6/1",
+        "decimalOdds": 7
+      },
+      {
+        "name": "Sale Sharks",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Bristol",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Saracens",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Harlequins",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Exeter Chiefs",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Gloucester",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Newcastle Falcons",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🎾 Wimbledon",
+    "dateLabel": "28 Jun–11 Jul 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Carlos Alcaraz",
+        "oddsFraction": "6/4",
+        "decimalOdds": 2.5
+      },
+      {
+        "name": "Jannik Sinner",
+        "oddsFraction": "2/1",
+        "decimalOdds": 3
+      },
+      {
+        "name": "Novak Djokovic",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Jack Draper",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Taylor Fritz",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Alexander Zverev",
+        "oddsFraction": "22/1",
+        "decimalOdds": 23
+      },
+      {
+        "name": "Daniil Medvedev",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Ben Shelton",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Alex de Minaur",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Holger Rune",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🌍 AFCON",
+    "dateLabel": "19 Jun–17 Jul 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Morocco",
+        "oddsFraction": "3/1",
+        "decimalOdds": 4
+      },
+      {
+        "name": "Senegal",
+        "oddsFraction": "5/1",
+        "decimalOdds": 6
+      },
+      {
+        "name": "Egypt",
+        "oddsFraction": "13/2",
+        "decimalOdds": 7.5
+      },
+      {
+        "name": "Nigeria",
+        "oddsFraction": "8/1",
+        "decimalOdds": 9
+      },
+      {
+        "name": "Algeria",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Ivory Coast",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Cameroon",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Ghana",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Tunisia",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Mali",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "⛳ The Open (Golf)",
+    "dateLabel": "15–18 Jul 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Scottie Scheffler",
+        "oddsFraction": "5/1",
+        "decimalOdds": 6
+      },
+      {
+        "name": "Rory McIlroy",
+        "oddsFraction": "7/1",
+        "decimalOdds": 8
+      },
+      {
+        "name": "Jon Rahm",
+        "oddsFraction": "12/1",
+        "decimalOdds": 13
+      },
+      {
+        "name": "Xander Schauffele",
+        "oddsFraction": "14/1",
+        "decimalOdds": 15
+      },
+      {
+        "name": "Bryson DeChambeau",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Ludvig Åberg",
+        "oddsFraction": "18/1",
+        "decimalOdds": 19
+      },
+      {
+        "name": "Justin Rose",
+        "oddsFraction": "22/1",
+        "decimalOdds": 23
+      },
+      {
+        "name": "Collin Morikawa",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Viktor Hovland",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Tommy Fleetwood",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Cameron Young",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Shane Lowry",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Joaquin Niemann",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Tyrrell Hatton",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Jordan Spieth",
+        "oddsFraction": "50/1",
+        "decimalOdds": 51
+      },
+      {
+        "name": "Sepp Straka",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Patrick Cantlay",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      },
+      {
+        "name": "Hideki Matsuyama",
+        "oddsFraction": "80/1",
+        "decimalOdds": 81
+      },
+      {
+        "name": "Robert MacIntyre",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      },
+      {
+        "name": "Matt Fitzpatrick",
+        "oddsFraction": "100/1",
+        "decimalOdds": 101
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🚴 Tour de France",
+    "dateLabel": "2–25 Jul 2027",
+    "hasWarning": true,
+    "competitors": [
+      {
+        "name": "Tadej Pogačar",
+        "oddsFraction": "4/6",
+        "decimalOdds": 1.6667
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "oddsFraction": "4/1",
+        "decimalOdds": 5
+      },
+      {
+        "name": "Remco Evenepoel",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Paul Seixas",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Florian Lipowitz",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Isaac del Toro",
+        "oddsFraction": "28/1",
+        "decimalOdds": 29
+      },
+      {
+        "name": "Juan Ayuso",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      },
+      {
+        "name": "Richard Carapaz",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "João Almeida",
+        "oddsFraction": "40/1",
+        "decimalOdds": 41
+      },
+      {
+        "name": "Ben O'Connor",
+        "oddsFraction": "66/1",
+        "decimalOdds": 67
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "name": "🌍 FIFA Women's World Cup",
+    "dateLabel": "24 Jun–25 Jul 2027",
+    "hasWarning": false,
+    "competitors": [
+      {
+        "name": "USA",
+        "oddsFraction": "14/5",
+        "decimalOdds": 3.8
+      },
+      {
+        "name": "Spain",
+        "oddsFraction": "7/2",
+        "decimalOdds": 4.5
+      },
+      {
+        "name": "England",
+        "oddsFraction": "4/1",
+        "decimalOdds": 5
+      },
+      {
+        "name": "France",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Germany",
+        "oddsFraction": "10/1",
+        "decimalOdds": 11
+      },
+      {
+        "name": "Sweden",
+        "oddsFraction": "16/1",
+        "decimalOdds": 17
+      },
+      {
+        "name": "Netherlands",
+        "oddsFraction": "20/1",
+        "decimalOdds": 21
+      },
+      {
+        "name": "Japan",
+        "oddsFraction": "25/1",
+        "decimalOdds": 26
+      },
+      {
+        "name": "Brazil",
+        "oddsFraction": "22/1",
+        "decimalOdds": 23
+      },
+      {
+        "name": "Canada",
+        "oddsFraction": "33/1",
+        "decimalOdds": 34
+      }
+    ],
+    "weight": 1
+  }
+]

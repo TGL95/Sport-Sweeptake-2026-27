@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Event {
+  id                 String       @id @default(cuid())
+  name               String
+  dateLabel          String
+  weight             Float
+  hasWarning         Boolean      @default(false)
+  sortOrder          Int
+  winnerCompetitorId String?
+  winnerCompetitor   Competitor?  @relation("EventWinner", fields: [winnerCompetitorId], references: [id])
+  competitors        Competitor[] @relation("EventCompetitors")
+  picks              Pick[]
+}
+
+model Competitor {
+  id           String   @id @default(cuid())
+  eventId      String
+  event        Event    @relation("EventCompetitors", fields: [eventId], references: [id])
+  name         String
+  oddsFraction String
+  decimalOdds  Float
+  sortOrder    Int
+  picks        Pick[]
+  wonEvents    Event[]  @relation("EventWinner")
+}
+
+model Player {
+  id              String   @id @default(cuid())
+  name            String   @unique
+  playingForMoney Boolean  @default(false)
+  tieBreakGuess   Int?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  picks           Pick[]
+}
+
+model Pick {
+  id           String     @id @default(cuid())
+  playerId     String
+  player       Player     @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  eventId      String
+  event        Event      @relation(fields: [eventId], references: [id])
+  competitorId String
+  competitor   Competitor @relation(fields: [competitorId], references: [id])
+
+  @@unique([playerId, eventId])
+}
+
+model Settings {
+  id              Int  @id @default(1)
+  actualTopScorer Int?
+}
