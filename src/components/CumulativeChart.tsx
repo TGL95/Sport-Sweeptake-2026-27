@@ -34,7 +34,7 @@ export default function CumulativeChart({
   playerNames: string[];
 }) {
   return (
-    <div className="h-96 w-full rounded-lg border border-slate-800 bg-slate-900/50 p-4">
+    <div className="h-[28rem] w-full rounded-lg border border-slate-800 bg-slate-900/50 p-4">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ top: 10, right: 10, left: -10, bottom: 40 }}>
           <CartesianGrid stroke="#1e293b" strokeDasharray="3 3" />
@@ -56,7 +56,7 @@ export default function CumulativeChart({
             }}
             labelStyle={{ color: "#e2e8f0" }}
           />
-          <Legend wrapperStyle={{ fontSize: 12 }} />
+          <Legend verticalAlign="top" align="center" wrapperStyle={{ fontSize: 12, paddingBottom: 12 }} />
           {playerNames.map((name, i) => (
             <Line
               key={name}

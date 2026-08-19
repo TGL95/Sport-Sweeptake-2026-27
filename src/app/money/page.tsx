@@ -88,10 +88,6 @@ export default async function MoneyLeaguePage() {
             ? `${money.secondPlace.name} — gets their £${money.secondPlaceRefund} entry fee back`
             : "—"}
         </p>
-        <p className="mt-2">
-          Real Top Scorer tally:{" "}
-          {money.actualTopScorer !== null ? money.actualTopScorer : "not entered yet"}
-        </p>
       </div>
     </div>
   );
