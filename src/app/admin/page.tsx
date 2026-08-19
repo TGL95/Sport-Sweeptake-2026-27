@@ -28,6 +28,12 @@ export default async function AdminPage() {
           {playerCount === 1 ? "" : "s"} {playerCount === 1 ? "has" : "have"} submitted picks
           so far.
         </p>
+        <a
+          href="/api/admin/export"
+          className="inline-block rounded-md bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-emerald-400"
+        >
+          ⬇️ Download all picks (CSV)
+        </a>
       </header>
 
       <div className="rounded-lg border border-slate-800 bg-slate-900/50 p-4">
