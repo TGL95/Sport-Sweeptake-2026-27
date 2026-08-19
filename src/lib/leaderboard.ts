@@ -7,6 +7,7 @@ export type PlayerRow = {
   playingForMoney: boolean;
   tieBreakGuess: number | null;
   totalPoints: number;
+  maxPossiblePoints: number;
   correctPicks: number;
   tieBreakDiff: number | null;
   pointsByEvent: Record<string, number>; // eventId -> points earned that event (0 if wrong/unpicked/unresolved)
@@ -32,21 +33,25 @@ export async function getLeaderboardData(): Promise<LeaderboardData> {
 
   const rows: PlayerRow[] = players.map((player) => {
     let totalPoints = 0;
+    let maxPossiblePoints = 0;
     let correctPicks = 0;
     const pointsByEvent: Record<string, number> = {};
 
     for (const pick of player.picks) {
-      const isWinner =
-        pick.event.winnerCompetitorId !== null &&
-        pick.event.winnerCompetitorId === pick.competitorId;
-      const pts = isWinner
-        ? round2(pointsIfCorrect(pick.competitor.decimalOdds, pick.event.weight))
-        : 0;
+      const resolved = pick.event.winnerCompetitorId !== null;
+      const isWinner = resolved && pick.event.winnerCompetitorId === pick.competitorId;
+      const potential = round2(pointsIfCorrect(pick.competitor.decimalOdds, pick.event.weight));
+      const pts = isWinner ? potential : 0;
       pointsByEvent[pick.eventId] = pts;
       if (isWinner) {
         totalPoints += pts;
         correctPicks += 1;
+        maxPossiblePoints += pts;
+      } else if (!resolved) {
+        // Still live - could still land and count toward the ceiling.
+        maxPossiblePoints += potential;
       }
+      // Resolved and wrong: this pick's points are gone, contributes 0.
     }
 
     const tieBreakDiff =
@@ -60,6 +65,7 @@ export async function getLeaderboardData(): Promise<LeaderboardData> {
       playingForMoney: player.playingForMoney,
       tieBreakGuess: player.tieBreakGuess,
       totalPoints: round2(totalPoints),
+      maxPossiblePoints: round2(maxPossiblePoints),
       correctPicks,
       tieBreakDiff,
       pointsByEvent,

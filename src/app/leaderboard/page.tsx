@@ -16,6 +16,10 @@ export default async function LeaderboardPage() {
           All players, ranked by total points. Points come from correctly picking
           underdogs — a favourite scores almost nothing, a big shock scores a lot.
         </p>
+        <p className="text-sm text-slate-400">
+          &quot;Max Possible&quot; is each player&apos;s ceiling if every still-live pick
+          lands — it shrinks each time one of their picks loses.
+        </p>
       </header>
 
       {data.players.length === 0 ? (
@@ -30,6 +34,7 @@ export default async function LeaderboardPage() {
                   <th className="px-3 py-2 font-medium">Player</th>
                   <th className="px-3 py-2 font-medium">Paid?</th>
                   <th className="px-3 py-2 text-right font-medium">Points</th>
+                  <th className="px-3 py-2 text-right font-medium">Max Possible</th>
                   <th className="px-3 py-2 text-right font-medium">Correct Picks</th>
                 </tr>
               </thead>
@@ -43,6 +48,9 @@ export default async function LeaderboardPage() {
                     <td className="px-3 py-2 text-slate-400">{p.playingForMoney ? "💷 Yes" : "Free"}</td>
                     <td className="px-3 py-2 text-right font-mono text-emerald-400">
                       {p.totalPoints.toFixed(2)}
+                    </td>
+                    <td className="px-3 py-2 text-right font-mono text-slate-300">
+                      {p.maxPossiblePoints.toFixed(2)}
                     </td>
                     <td className="px-3 py-2 text-right text-slate-300">{p.correctPicks}</td>
                   </tr>
